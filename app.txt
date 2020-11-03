@@ -1,0 +1,19 @@
+Admin
+-Data Pemohon
+-Data Petugas
+-Surat Pengukuran
+
+-Data Permohonan Roya
+-Data Permohonan HM
+-Data Permohonan HT
+-Data Permohonan HGB
+
+
+Petugas
+-Surat Pengukuran
+-Laporan Pengukuran
+
+Pemohon.
+-Data Diri
+-Ajukan Permohonan
+-Riwayat Permohonan
