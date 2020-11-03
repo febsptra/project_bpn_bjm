@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 21 Okt 2020 pada 05.03
+-- Waktu pembuatan: 03 Nov 2020 pada 09.47
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.3.18
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bpn_dimas`
+-- Database: `bpn_bjm`
 --
 
 -- --------------------------------------------------------
@@ -195,7 +195,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `username`, `password`, `nama`, `email`, `level`, `foto`) VALUES
-(1, 'admin', 'admin', 'Dimas', 'admin@gmail.com', 'admin', 'avatar-6.jpg'),
+(1, 'admin', 'admin', 'UserAdmin', 'admin@gmail.com', 'admin', 'avatar-6.jpg'),
 (2, 'petugas', 'petugas', 'Hadi', 'petugas@gmail.com', 'petugas', 'avatar-3.jpg'),
 (3, 'pemohon', 'pemohon', 'Febry Saputra', 'pemohon@gmail.com', 'pemohon', 'pemohon.jpg'),
 (4, 'pemohon2', 'pemohon2', 'Stephani', 'pemohon@gmail.com', 'pemohon', 'pemohon.jpg');
@@ -284,7 +284,7 @@ ALTER TABLE `permohonan_hm`
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
